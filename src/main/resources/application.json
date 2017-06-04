@@ -1,0 +1,47 @@
+{
+  "sensors": [
+    {
+      "engine": "123",
+      "name": "Engine 123",
+      "max_value": 120,
+      "min_value": 0,
+      "type": "pressure",
+      "id": "3142",
+      "value": 27
+    },
+    {
+      "master-sensor-id": "3142",
+      "max_value": 150,
+      "min_value": -50,
+      "type": "temperature",
+      "id": "32234",
+      "value": 82
+    },
+    {
+      "master-sensor-id": "3142",
+      "max_value": 100,
+      "min_value": 0,
+      "type": "temperature",
+      "id": "57230",
+      "value": 55
+    },
+    {
+      "engine": "156",
+      "name": "Engine 156",
+      "max_value": 150,
+      "min_value": 0,
+      "value": 73,
+      "location": "",
+      "type": "pressure",
+      "id": "5703"
+    },
+    {
+      "master-sensor-id": "5703",
+      "max_value": 100,
+      "min_value": 0,
+      "type": "temperature",
+      "id": "89145",
+      "value": 65
+    }
+  ]
+}

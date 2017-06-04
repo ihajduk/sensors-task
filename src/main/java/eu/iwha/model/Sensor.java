@@ -4,10 +4,13 @@ import lombok.Data;
 
 @Data
 public class Sensor {
-    int id;
-    String type;
-    String name;
-    int value;
-    int min_value;
-    int max_value;
+    private String id;
+    private String masterSensorId;
+    private String engine;
+    private String location;
+    private String type;
+    private String name;
+    private int value;
+    private int min_value;
+    private int max_value;
 }
